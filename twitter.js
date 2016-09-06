@@ -1,3 +1,5 @@
+// ========== TWITTER ==========
+
 // Save the document I want to reference to a variable and make it required
 var myTwitter = require('./keys.js');
 var twitterObj = require('twitter');
@@ -37,7 +39,5 @@ client.get('statuses/user_timeline', params, function(error, tweets, response) {
   }
 
 });
-
-
 
 // console.log("twitterObj" + JSON.stringify(client, null, 2));
