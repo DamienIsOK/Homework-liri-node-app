@@ -1,5 +1,6 @@
 console.log('this is loaded');
 
+// exports sends your object outward to be used outside of this doc
 exports.twitterKeys = {
   consumer_key: 'EbCcVbk7l64zST6bkc4ivFEuh',
   consumer_secret: 'LkahW3POENTGun95KFe3q5l2gYkwxEP8hwmei0ginILn1OOVWU',
